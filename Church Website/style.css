@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+#banner{
+    width: 100%;
+    background: linear-gradient(rgba(186, 216, 19, 0.5),rgba(1, 19, 180, 0.5)), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #2f01fa;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #2f01fa;
+}
+
+.search{
+    float: right;
+    margin-right: 10px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #2f01fa;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.banner-btn{
+    /* margin: 70px auto 0; */
+}
+
+/* .banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+} */
+/* 
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s; */
+}
+
+/* .banner-btn a:hover span{
+    width: 100%; */
+}
+/* 
+.banner-btn a:hover{
+    color: black; */
+}
